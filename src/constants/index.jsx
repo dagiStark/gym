@@ -124,3 +124,38 @@ export const trainersData = [
     role: "Prof. wrestling coach",
   },
 ];
+
+export const exercises = [
+  {
+    id: 1,
+    trainerImg: "https://source.unsplash.com/random/?warmup",
+    name: "Warm up",
+    duration: 15,
+    sets: 3,
+    calories: 100,
+  },
+  {
+    id: 2,
+    trainerImg: "https://source.unsplash.com/random/?deadlift",
+    name: "Shoulder Workout",
+    duration: 20,
+    sets: 4,
+    calories: 150,
+  },
+  {
+    id: 3,
+    trainerImg: "https://source.unsplash.com/random/?yoga",
+    name: "Yoga Session",
+    duration: 55,
+    sets: 5,
+    calories: 250,
+  },
+  {
+    id: 4,
+    trainerImg: "https://source.unsplash.com/random/?squat",
+    name: "Leg Workout",
+    duration: 18,
+    sets: 4,
+    calories: 120,
+  },
+];
