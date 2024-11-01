@@ -8,6 +8,7 @@ import Trainers from "./home/Trainers.jsx";
 import Popular from "./home/Popular.jsx";
 import PricingPlan from "./home/PricingPlan.jsx";
 import Contact from "./home/Contact.jsx";
+import Footer from "./home/Footer.jsx";
 
 export {
   Home,
@@ -19,5 +20,6 @@ export {
   Trainers,
   Popular,
   PricingPlan,
-  Contact
+  Contact,
+  Footer
 };
