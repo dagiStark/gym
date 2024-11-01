@@ -8,6 +8,7 @@ import {
   Trainers,
   Popular,
   PricingPlan,
+  Contact
 } from "./pages";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Trainers />
       <Popular />
       <PricingPlan />
+      <Contact />
     </>
   );
 }

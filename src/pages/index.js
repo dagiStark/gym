@@ -7,6 +7,7 @@ import Banner from "./home/Banner.jsx";
 import Trainers from "./home/Trainers.jsx";
 import Popular from "./home/Popular.jsx";
 import PricingPlan from "./home/PricingPlan.jsx";
+import Contact from "./home/Contact.jsx";
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   Trainers,
   Popular,
   PricingPlan,
+  Contact
 };
