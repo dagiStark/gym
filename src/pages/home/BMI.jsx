@@ -2,18 +2,23 @@ import { Dumbbell } from "lucide-react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function BMI() {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
-  const [bmi, setBmi] = useState("");
+  const [btnText, setBtnText] = useState("Calculate your bmi");
 
   const calculateBmi = () => {
     const heightInMeters = height * 0.01;
     const bmi = weight / (heightInMeters * heightInMeters);
-    setBmi(bmi.toFixed(2));
+    setBtnText(`Your bmi is: ${bmi.toFixed(2)}`);
   };
+
+  useEffect(() => {
+    setBtnText("calculate your bmi");
+  }, [height, weight]);
+
   return (
     <div className="w-full h-auto flex items-center py-12 md:py-14 lg:py-16 px-6 md:px-16 lg:px-24">
       <div className="w-full h-auto flex items-center justify-center flex-col">
@@ -48,7 +53,7 @@ function BMI() {
               className="w-full md:w-auto px-7 py-2 text-base font-medium uppercase justify-center text-indigo-600 border border-indigo-500"
               onClick={calculateBmi}
             >
-              {bmi ? `Your BMI is ${bmi}` : "Calculate BMI"}
+              {btnText}
             </Button>
           </div>
         </div>
