@@ -17,7 +17,7 @@ function Services() {
           {servicesData.map((item, index) => (
             <div
               key={index}
-              className="w-[20%] rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translate-y-10 ease-out transition-all duration-500 py-10"
+              className=" sm:w-[90%] md:w-[40%] lg:w-[20%] rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translate-y-10 ease-out transition-all duration-500 py-10"
             >
               <div className="w-full h-full bg-black absolute top-0 left-0 -z-10">
                 <img src={item.icon} alt="bgImg" />
@@ -26,15 +26,15 @@ function Services() {
               <div className="w-full h-full flex items-center justify-center flex-col text-white p-4 z-50">
                 <div
                   className="text-base 
-                        md:text-lg font-medium px-4 py-4 text-gray-200 bg-black/20 
-                        flex items-center justify-center md:justify-start gap-x-2 border-4 rounded-full border-indigo-600"
+                        md:text-lg font-medium px-4 py-4 text-gray-200 bg-indigo-200 bg-opacity-30 
+                        flex items-center justify-center md:justify-start gap-x-2 border-4 rounded-full border-indigo-600 mb-4"
                 >
                   <Dumbbell className="w-6 h-6 " />
                 </div>
                 <h1 className="text-xl text-gray-100 font-semibold text-center mb-4">
                   {item.title}
                 </h1>
-                <p className="text-xl text-gray-400 font-normal text-center mb-4">
+                <p className="text-lg text-gray-400 font-normal text-center mb-4">
                   {item.desc}
                 </p>
                 <div>
