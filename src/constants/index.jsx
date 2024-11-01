@@ -21,3 +21,10 @@ export const swiperData = [
     desc: "Make your body stronger with our high quality products.",
   },
 ];
+
+export const historyData = [
+  { id: 1, amount: "1200", text: "Members" },
+  { id: 2, amount: "120", text: "Expert Trainers" },
+  { id: 3, amount: "13", text: "Years of Experience" },
+  { id: 4, amount: "368", text: "GYMs" },
+];

@@ -7,6 +7,7 @@ import { swiperData } from "@/constants";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Button } from "@/components/ui/button";
 import image1 from "@/assets/image1.jpg";
+import { historyData } from "@/constants";
 
 function Hero() {
   return (
@@ -55,12 +56,17 @@ function Hero() {
       </Swiper>
 
       <div className="w-full h-auto flex items-center justify-center md:justify-between sm:justify-center lg:justify-between gap-5 md:gap-7 lg:gap-7 px-6 md:px-16 lg:px-24 mt-6 flex-wrap">
-        <div className="flex flex-col items-center justify-center w-[48%] md:w-[30%] lg:w-fit py-8 lg:p-7 px-10 bg-black/10 hover:bg-black/30  rounded-md cursor-pointer">
-          <h5 className="text-4xl text-indigo-400 font-semibold mb-2 uppercase">
-            1200+
-          </h5>
-          <p className="text-lg text-gray-600 font-medium">Members</p>
-        </div>
+        {historyData.map((item, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center w-[48%] md:w-[30%] lg:w-fit py-8 lg:p-7 px-10 bg-black/10 hover:bg-black/30  rounded-md cursor-pointer"
+          >
+            <h5 className="text-4xl text-indigo-400 font-semibold mb-2 uppercase">
+              {item.amount}+
+            </h5>
+            <p className="text-lg text-gray-600 font-medium">{item.text}</p>
+          </div>
+        ))}
       </div>
     </>
   );

@@ -12,9 +12,9 @@ function About() {
         />
       </div>
 
-      <div className="w-full lg:w-[50%] text-start">
-        <h6 className="text-lg font-medium text-gray-200 flex items-center justify-center md:justify-start lg:justify-start gap-x-2 mb-3">
-          <Dumbbell className="w-4 h-4 -rotate-45 text-indigo-600" />
+      <div className="w-full lg:w-[50%] text-start gap-3 flex flex-col">
+        <h6 className="text-2xl font-medium text-gray-200 flex items-center justify-center md:justify-start lg:justify-start gap-x-2 mb-3">
+          <Dumbbell className="w-6 h-4 -rotate-45 text-indigo-600" />
           About us
         </h6>
         <h1 className="text-2xl md:text-3xl  font-semibold text-gray-200 mb-4 leading-normal pe-1 md:pe-4 lg:pe-5">
@@ -33,12 +33,14 @@ function About() {
           dolores vero tempora ipsum error. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Perferendis laborum minus ab ipsam sed,
         </p>
-        <Button
-          variant="outline"
-          className="w-full md:w-auto px-7 py-2 text-base font-medium uppercase justify-center text-indigo-600 border border-indigo-500"
-        >
-          Become a member
-        </Button>
+        <div>
+          <Button
+            variant="outline"
+            className="w-full md:w-auto px-7 py-2 text-base font-medium uppercase justify-center text-indigo-600 border border-indigo-500"
+          >
+            Become a member
+          </Button>
+        </div>
       </div>
     </div>
   );
