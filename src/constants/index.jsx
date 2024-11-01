@@ -1,3 +1,5 @@
+import { Dumbbell } from "lucide-react";
+
 export const swiperData = [
   {
     id: 1,
@@ -27,4 +29,71 @@ export const historyData = [
   { id: 2, amount: "120", text: "Expert Trainers" },
   { id: 3, amount: "13", text: "Years of Experience" },
   { id: 4, amount: "368", text: "GYMs" },
+];
+
+export const servicesData = [
+  {
+    id: 1,
+    serviceImg: "https://source.unsplash.com/random/?dumbbell",
+    icon: Dumbbell,
+    title: "Fitness",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 2,
+    serviceImg: "https://source.unsplash.com/random/?yoga",
+    icon: Dumbbell,
+    title: "Yoga",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 3,
+    serviceImg: "https://source.unsplash.com/random/?gym",
+    icon: Dumbbell,
+    title: "Gym",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 4,
+    serviceImg: "https://source.unsplash.com/random/?aerobics",
+    icon: Dumbbell,
+    title: "Aerobics",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 5,
+    serviceImg: "https://source.unsplash.com/random/?boxing",
+    icon: Dumbbell,
+    title: "Boxing",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 6,
+    serviceImg: "https://source.unsplash.com/random/?yoga",
+    icon: Dumbbell,
+    title: "Yoga",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 7,
+    serviceImg: "https://source.unsplash.com/random/?gym",
+    icon: Dumbbell,
+    title: "Gym",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
+  {
+    id: 8,
+    serviceImg: "https://source.unsplash.com/random/?zumba",
+    icon: Dumbbell,
+    title: "Zumba",
+    desc: "Get ready to burn off some serious fat with our high quality products.",
+    link: "#services",
+  },
 ];
