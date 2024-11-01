@@ -1,4 +1,4 @@
-import { Home, Hero, About, BMI, Services, Banner } from "./pages";
+import { Home, Hero, About, BMI, Services, Banner, Trainers } from "./pages";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <BMI />
       <Services />
       <Banner />
+      <Trainers />
     </>
   );
 }
