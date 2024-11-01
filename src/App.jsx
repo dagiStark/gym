@@ -1,5 +1,4 @@
-import { Home, Hero, About } from "./pages";
-
+import { Home, Hero, About, BMI } from "./pages";
 
 function App() {
   return (
@@ -7,6 +6,7 @@ function App() {
       <Home />
       <Hero />
       <About />
+      <BMI />
     </>
   );
 }
