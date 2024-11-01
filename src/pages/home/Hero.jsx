@@ -24,7 +24,7 @@ function Hero() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper w-full h-auto "
+        className="mySwiper w-full h-auto"
       >
         {swiperData.map((item, index) => (
           <SwiperSlide key={index} className="relative">
@@ -45,7 +45,7 @@ function Hero() {
                 <p className="text-base md:text-base lg:text-base text-gray-500 font-medium mb-6 text-center">
                   {item.desc}
                 </p>
-                <Button className=" text-xl font-semibold rounded-full bg-indigo-600  hover:bg-indigo-600/70 ease-out duration-500">
+                <Button className=" text-xl font-semibold rounded-full bg-indigo-600  hover:bg-indigo-600/70 ">
                   Get Started
                 </Button>
               </div>
@@ -55,7 +55,7 @@ function Hero() {
       </Swiper>
 
       <div className="w-full h-auto flex items-center justify-center md:justify-between sm:justify-center lg:justify-between gap-5 md:gap-7 lg:gap-7 px-6 md:px-16 lg:px-24 mt-6 flex-wrap">
-        <div className="flex flex-col items-center justify-center w-[48%] md:w-[30%] lg:w-fit py-8 lg:p-7 px-10 bg-black/10 hover:bg-black/30  rounded-md ease-out duration-700 cursor-pointer">
+        <div className="flex flex-col items-center justify-center w-[48%] md:w-[30%] lg:w-fit py-8 lg:p-7 px-10 bg-black/10 hover:bg-black/30  rounded-md cursor-pointer">
           <h5 className="text-4xl text-indigo-400 font-semibold mb-2 uppercase">
             1200+
           </h5>

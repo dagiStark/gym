@@ -1,3 +1,4 @@
-import Home from './Home.jsx'
-import Hero from './Hero.jsx'
-export {Home, Hero}
+import Home from './home/Home.jsx'
+import Hero from './home/Hero.jsx'
+import About from './home/About.jsx'
+export {Home, Hero, About}
