@@ -6,15 +6,15 @@ function PricingPlan() {
     <div className="w-full h-auto flex items-center flex-col py-12 md:py-14 lg:py-16 px-6 md:px-16 lg:px-24">
       <div className="w-full h-full flex items-center justify-center flex-col gap-3">
         <h6
-          className="text-base 
-    md:text-lg font-medium rounded-t-md px-4 py-2 text-gray-200 bg-black/20 flex items-center justify-center md:justify-start gap-x-2"
+          className="text-2xl md:text-4xl
+        font-medium rounded-t-md px-4 py-2 text-gray-200 bg-black/20 flex items-center justify-center md:justify-start gap-x-2 md:gap-x-4"
         >
-          <Dumbbell className="w-6 h-6 text-indigo-600" />
+          <Dumbbell className="w-6 h-4 md:w-10 md:h-10 -rotate-45 text-indigo-600" />
           Our Pricing Plan
         </h6>
 
         <div className="flex justify-center items-center flex-wrap w-full h-auto gap-x-5 gap-y-8">
-          <div className="w-full flex flex-col items-center border-[5px] border-indigo-400  lg:w-[27%] h-auto rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translate-y-5 ease-out transition-all duration-500 py-10">
+          <div className="w-full flex flex-col items-center border-[5px] border-indigo-400 md:w-[60%]  lg:w-[27%] h-auto rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translate-y-5 ease-out transition-all duration-500 py-10">
             <h2 className="md:text-4xl text-3xl text-white font-semibold mb-5">
               Basic Plan
             </h2>
@@ -54,10 +54,7 @@ function PricingPlan() {
             </div>
           </div>
 
-          <div className="w-full flex flex-col items-center border-8 border-indigo-400 bg-indigo-600 bg-opacity-30 lg:w-[27%] h-auto rounded-xl relative overflow-hidden cursor-pointer z-10 hover:-translate-y-5 ease-out transition-all duration-500 py-10">
-            <div className="absolute -top-6 left-[50%] translate-x-[-50%] bg-indigo-600 bg-opacity-25 py-2 px-5 rounded-full text-base font-medium text-white">
-              Recommended
-            </div>
+          <div className="w-full flex flex-col items-center border-4 border-indigo-400 lg:w-[27%] h-auto rounded-xl relative overflow-hidden cursor-pointer z-10 hover:-translate-y-5 ease-out transition-all duration-500 py-10">
             <h2 className="md:text-4xl text-3xl text-white font-semibold mb-5">
               Premium Plan
             </h2>
