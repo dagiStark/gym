@@ -11,22 +11,25 @@ import {
   Footer,
   Navbar,
 } from "./pages";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <BMI />
-      <Services />
-      <Banner />
-      <Trainers />
-      <Popular />
-      <PricingPlan />
-      <Contact />
-      <Footer />
-    </>
+    <Fragment>
+      <div className="bg-black/80">
+        <Navbar />
+        <Hero />
+        <About />
+        <BMI />
+        <Services />
+        <Banner />
+        <Trainers />
+        <Popular />
+        <PricingPlan />
+        <Contact />
+        <Footer />
+      </div>
+    </Fragment>
   );
 }
 

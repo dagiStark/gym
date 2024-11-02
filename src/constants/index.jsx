@@ -1,25 +1,28 @@
 import {
   Dumbbell,
 } from "lucide-react";
+import image1 from "@/assets/images/image1.jpg";
+import image2 from "@/assets/images/image2.jpg";
+import image3 from "@/assets/images/image3.jpg";
 
 export const swiperData = [
   {
     id: 1,
-    bgImg: "https://source.unsplash.com/random/?fitness",
+    bgImg: image3,
     slogan: "Keep your body",
     title: "Burning",
     desc: "Get ready to burn off some serious fat with our high quality products.",
   },
   {
     id: 2,
-    bgImg: "https://source.unsplash.com/random/?gym",
+    bgImg: image2,
     slogan: "Just Believe In",
     title: "Yourself",
     desc: "We are here to help you achieve your goals.",
   },
   {
     id: 3,
-    bgImg: "https://source.unsplash.com/random/?yoga",
+    bgImg: image1,
     slogan: "Grow Your Body",
     title: "Strength",
     desc: "Make your body stronger with our high quality products.",

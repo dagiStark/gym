@@ -6,7 +6,6 @@ import { swiperData } from "@/constants";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Button } from "@/components/ui/button";
-import image1 from "@/assets/image1.jpg";
 import { historyData } from "@/constants";
 
 function Hero() {
@@ -30,12 +29,11 @@ function Hero() {
         {swiperData.map((item, index) => (
           <SwiperSlide key={index} className="relative">
             <img
-              src={image1}
+              src={item.bgImg}
               alt="bgImg"
               className="absolute top-0 left-0 w-full h-full object-cover"
             />
             <div className="w-full h-[50vh] lg:h-[70vh] relative">
-              <div className="w-full h-full bg-black/80 absolute top-0 left-0 -z-10"></div>
               <div className="w-full h-full flex items-center justify-center flex-col z-10 lg:px-24 md:px-16 sm:px-6 px-4 gap-4">
                 <h5 className="lg:text-4xl md:text-3xl  text-2xl text-indigo-700 font-semibold mb-2 uppercase">
                   {item.slogan}
