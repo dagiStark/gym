@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { Dumbbell, MailIcon, MapIcon, PhoneIcon, } from "lucide-react";
-
+import { Dumbbell, MailIcon, MapIcon, PhoneIcon } from "lucide-react";
+import { facebook, instagram, youtube } from "@/assets";
 
 function Footer() {
+  console.log(facebook, instagram, youtube);
+
   return (
     <div className="flex items-center justify-center w-full h-auto px-6 md:px-16 lg:px-24 mt-6 bg-black/20 flex-wrap">
       <div className="flex items-start w-full h-auto justify-center md:justify-between lg:justify-between gap-5 mb-10 flex-wrap">
@@ -85,22 +87,46 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex items-center w-full h-[1.5px] lg:bg-gray-900 md:bg-gray-900 bg-transparent relative">
-          <div className="flex items-center justify-center md:justify-between lg:justify-between absolute -top-4 left-[-50%] flex-wrap-reverse gap-y-4">
-            <p className="text-sm text-gray-400 font-normal md:bg-gray-900 lg:bg-gray-900 bg-transparent py-1 px-4 rounded-md">
+        <div className="flex items-center justify-center w-full h-auto lg:bg-gray-900 md:bg-gray-900 bg-gray-800 relative">
+          <div className="flex w-full items-center justify-between md:justify-between lg:justify-between absolute top-0 left-0 flex-wrap-reverse gap-y-4">
+            <p className="text-sm text-gray-400 font-normal md:bg-gray-900 lg:bg-gray-900 bg-gray-800 py-1 px-4 rounded-md">
               @2024 G-Tech, All rights reserved
             </p>
+
             <div className="w-auto h-auto flex items-center justify-center gap-x-2 gap-y-2">
               <ul className="w-full h-auto flex items-center justify-center gap-x-4">
                 <li className="w-8 h-8 cursor-pointer bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
-                  <a href="/" target="_blank" className="">
-                    <img src="" alt="facebook icon" className="w-5 h-5" />
+                  <a href="/" target="_blank">
+                    <img
+                      src={facebook}
+                      alt="facebook icon"
+                    />
+                  </a>
+                </li>
+                <li className="w-8 h-8 cursor-pointer bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
+                  <a href="/" target="_blank">
+                    <img
+                      src="{instagram}"
+                      alt="instagram icon"
+                      className="w-5 h-5 text-white"
+                    />
+                  </a>
+                </li>
+                <li className="w-8 h-8 cursor-pointer bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
+                  <a href="/" target="_blank">
+                    <img
+                      src="{youtube}"
+                      alt="youtube icon"
+                      className="w-5 h-5"
+                    />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   );
