@@ -9,6 +9,7 @@ import Popular from "./home/Popular.jsx";
 import PricingPlan from "./home/PricingPlan.jsx";
 import Contact from "./home/Contact.jsx";
 import Footer from "./home/Footer.jsx";
+import Navbar from "./home/Navbar.jsx";
 
 export {
   Home,
@@ -21,5 +22,6 @@ export {
   Popular,
   PricingPlan,
   Contact,
-  Footer
+  Footer,
+  Navbar
 };

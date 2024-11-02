@@ -1,5 +1,4 @@
 import {
-  Home,
   Hero,
   About,
   BMI,
@@ -10,12 +9,13 @@ import {
   PricingPlan,
   Contact,
   Footer,
+  Navbar,
 } from "./pages";
 
 function App() {
   return (
     <>
-      <Home />
+      <Navbar />
       <Hero />
       <About />
       <BMI />

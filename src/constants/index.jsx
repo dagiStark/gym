@@ -1,4 +1,6 @@
-import { Dumbbell } from "lucide-react";
+import {
+  Dumbbell,
+} from "lucide-react";
 
 export const swiperData = [
   {
@@ -157,5 +159,28 @@ export const exercises = [
     duration: 18,
     sets: 4,
     calories: 120,
+  },
+];
+
+export const navbarData = [
+  {
+    id: 1,
+    name: "Home",
+    link: "/",
+  },
+  {
+    id: 2,
+    name: "About",
+    link: "/about",
+  },
+  {
+    id: 3,
+    name: "Pricing Plan",
+    link: "/pricing-plan",
+  },
+  {
+    id: 4,
+    name: "Contact",
+    link: "/contact",
   },
 ];
