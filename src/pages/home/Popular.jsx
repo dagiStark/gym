@@ -12,11 +12,11 @@ function Popular() {
           <Dumbbell className="w-6 h-4 md:w-10 md:h-10 -rotate-45 text-indigo-600" />
           Our Popular Exercises
         </h6>
-        <div className="flex items-center w-full h-auto gap-x-5 gap-y-6 flex-wrap lg:flex-nowrap">
+        <div className="flex items-center justify-center w-full h-auto gap-x-5 gap-y-6 flex-wrap lg:flex-nowrap">
           {exercises.map((item, index) => (
             <div
               key={index}
-              className="w-[48%] lg:w-[24%] h-auto rounded-lg overflow-hidden hover:shadow-indigo-900/40 ease-out duration-700 cursor-pointer "
+              className="w-full md:w-[40%] lg:w-[24%] h-auto rounded-lg overflow-hidden hover:shadow-indigo-900/40 ease-out duration-700 cursor-pointer "
             >
               <img
                 src={item.trainerImg}
