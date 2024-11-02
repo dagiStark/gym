@@ -175,11 +175,16 @@ export const navbarData = [
   },
   {
     id: 3,
-    name: "Pricing Plan",
-    link: "/pricing-plan",
+    name: "Services",
+    link: "/services",
   },
   {
     id: 4,
+    name: " Plan",
+    link: "/pricing-plan",
+  },
+  {
+    id: 5,
     name: "Contact",
     link: "/contact",
   },
