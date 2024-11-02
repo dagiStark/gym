@@ -8,7 +8,8 @@ import {
   Trainers,
   Popular,
   PricingPlan,
-  Contact
+  Contact,
+  Footer,
 } from "./pages";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Popular />
       <PricingPlan />
       <Contact />
+      <Footer />
     </>
   );
 }
