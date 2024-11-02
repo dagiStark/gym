@@ -15,6 +15,11 @@ import coach2 from "@/assets/coaches/coach2.jpg";
 import coach3 from "@/assets/coaches/coach3.jpg";
 import coach4 from "@/assets/coaches/coach4.jpg";
 
+import exercise1 from "@/assets/exercises/exercise1.jpg";
+import exercise2 from "@/assets/exercises/exercise2.jpg";
+import exercise3 from "@/assets/exercises/exercise3.jpg";
+import exercise4 from "@/assets/exercises/exercise4.jpg";
+
 export const swiperData = [
   {
     id: 1,
@@ -143,7 +148,7 @@ export const trainersData = [
 export const exercises = [
   {
     id: 1,
-    trainerImg: "https://source.unsplash.com/random/?warmup",
+    trainerImg: exercise1,
     name: "Warm up",
     duration: 15,
     sets: 3,
@@ -151,7 +156,7 @@ export const exercises = [
   },
   {
     id: 2,
-    trainerImg: "https://source.unsplash.com/random/?deadlift",
+    trainerImg: exercise2,
     name: "Shoulder Workout",
     duration: 20,
     sets: 4,
@@ -159,7 +164,7 @@ export const exercises = [
   },
   {
     id: 3,
-    trainerImg: "https://source.unsplash.com/random/?yoga",
+    trainerImg: exercise3,
     name: "Yoga Session",
     duration: 55,
     sets: 5,
@@ -167,7 +172,7 @@ export const exercises = [
   },
   {
     id: 4,
-    trainerImg: "https://source.unsplash.com/random/?squat",
+    trainerImg: exercise4,
     name: "Leg Workout",
     duration: 18,
     sets: 4,
