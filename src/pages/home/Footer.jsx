@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Dumbbell, MailIcon, MapIcon, PhoneIcon } from "lucide-react";
+import { Dumbbell, MailIcon, MapIcon, PhoneIcon, } from "lucide-react";
+
 
 function Footer() {
   return (
@@ -43,7 +44,61 @@ function Footer() {
 
         <div className="flex items-center justify-center md:justify-end flex-wrap w-full md:w-[65%] lg:w-[65%] h-auto gap-5">
           <div className="flex items-center flex-col justify-center w-full md:w-[48%] lg:w-[33%]">
-            <h2>Services</h2>
+            <h2 className="text-lg text-gray-200 font-medium mb-4">Services</h2>
+            <div className="w-full h-auto">
+              <ul className="w-full h-auto space-y-2">
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Strength Training
+                </li>
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Yoga Session
+                </li>
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Dead Lift Challenge
+                </li>
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Squats Challenge
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="flex items-center flex-col justify-center w-full md:w-[48%] lg:w-[33%]">
+            <h2 className="text-lg text-gray-200 font-medium mb-4">
+              Quick Links
+            </h2>
+            <div className="w-full h-auto">
+              <ul className="w-full h-auto space-y-2">
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Home
+                </li>
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  About
+                </li>
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Pricing Plan
+                </li>
+                <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
+                  Contact
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center w-full h-[1.5px] lg:bg-gray-900 md:bg-gray-900 bg-transparent relative">
+          <div className="flex items-center justify-center md:justify-between lg:justify-between absolute -top-4 left-[-50%] flex-wrap-reverse gap-y-4">
+            <p className="text-sm text-gray-400 font-normal md:bg-gray-900 lg:bg-gray-900 bg-transparent py-1 px-4 rounded-md">
+              @2024 G-Tech, All rights reserved
+            </p>
+            <div className="w-auto h-auto flex items-center justify-center gap-x-2 gap-y-2">
+              <ul className="w-full h-auto flex items-center justify-center gap-x-4">
+                <li className="w-8 h-8 cursor-pointer bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
+                  <a href="/" target="_blank" className="">
+                    <img src="" alt="facebook icon" className="w-5 h-5" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
