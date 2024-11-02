@@ -4,12 +4,12 @@ import { exercises } from "@/constants";
 function Popular() {
   return (
     <div className="w-full h-auto flex items-center flex-col py-12 md:py-14 lg:py-16 px-6 md:px-16 lg:px-24">
-      <div className="w-full h-auto flex items-center justify-center flex-col gap-3">
+      <div className="w-full h-auto flex items-center justify-center flex-col gap-3 md:gap-5 lg:gap-6">
         <h6
-          className="text-base 
-      md:text-lg font-medium rounded-t-md px-4 py-2 text-gray-200 bg-black/20 flex items-center justify-center md:justify-start gap-x-2"
+          className="text-2xl md:text-4xl
+       font-medium rounded-t-md px-4 py-2 text-gray-200 bg-black/20 flex items-center justify-center md:justify-start gap-x-2 md:gap-x-4"
         >
-          <Dumbbell className="w-6 h-6 text-indigo-600" />
+          <Dumbbell className="w-6 h-4 md:w-10 md:h-10 -rotate-45 text-indigo-600" />
           Our Popular Exercises
         </h6>
         <div className="flex items-center w-full h-auto gap-x-5 gap-y-6 flex-wrap lg:flex-nowrap">
