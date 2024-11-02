@@ -6,16 +6,16 @@ import { Button } from "@/components/ui/button";
 function Contact() {
   return (
     <div className="w-full h-full flex items-center justify-center flex-col gap-3 mb-24">
-      <h6
-        className="text-base 
-  md:text-lg font-medium rounded-t-md px-4 py-2 text-gray-200 bg-black/20 flex items-center justify-center md:justify-start gap-x-2"
-      >
-        <Dumbbell className="w-6 h-6 text-indigo-600" />
-        Ask About GYMs
-      </h6>
+       <h6
+          className="text-2xl md:text-4xl
+        font-medium rounded-t-md px-4 py-2 text-gray-200 bg-black/20 flex items-center justify-center md:justify-start gap-x-2 md:gap-x-4"
+        >
+          <Dumbbell className="w-6 h-4 md:w-10 md:h-10 -rotate-45 text-indigo-600" />
+          Ask About GYMs
+        </h6>
 
-      <div className="flex items-center w-full h-auto gap-x-8 lg:gap-y-8 md:gap-y-8 gap-y-6 flex-col p-4 md:p-7 ">
-        <div className="flex items-center w-full gap-x-4 md:gap-x-6 lg:gap-x-8 gap-y-4 md:gap-y-6 lg:gap-y-8 flex-wrap md:flex-nowrap">
+      <div className="flex items-center justify-center w-full h-auto gap-x-8 lg:gap-y-8 md:gap-y-8 gap-y-6 flex-col p-4 md:p-7 ">
+        <div className="flex items-center  w-full gap-x-4 md:gap-x-6 lg:gap-x-8 gap-y-4 md:gap-y-6 lg:gap-y-8 flex-wrap md:flex-nowrap">
           <div className="w-[50%] md:w-[33%] lg:w-[30%] h-auto ">
             <Input
               type="text"
