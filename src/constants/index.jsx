@@ -10,6 +10,11 @@ import serviceImage4 from "@/assets/services/serviceImage4.jpg";
 import serviceImage5 from "@/assets/services/serviceImage5.jpg";
 import serviceImage6 from "@/assets/services/serviceImage6.jpg";
 
+import coach1 from "@/assets/coaches/coach1.jpg";
+import coach2 from "@/assets/coaches/coach2.jpg";
+import coach3 from "@/assets/coaches/coach3.jpg";
+import coach4 from "@/assets/coaches/coach4.jpg";
+
 export const swiperData = [
   {
     id: 1,
@@ -111,26 +116,26 @@ export const servicesData = [
 export const trainersData = [
   {
     id: 1,
-    trainerImg: "https://source.unsplash.com/random/?bodybuilder",
+    trainerImg: coach1,
     name: "Dr. John Smith",
     role: "Body Building Coach",
   },
   {
     id: 2,
-    trainerImg: "https://source.unsplash.com/random/?gym,trainer",
+    trainerImg: coach2,
     name: "Dr. John Doe",
     role: "Gym Trainer",
   },
   {
     id: 3,
-    trainerImg: "https://source.unsplash.com/random/?fitness",
-    name: "Mrs. Lilly Doe",
+    trainerImg: coach4,
+    name: "Mr. Lilly Doe",
     role: "Prof. fitness coach",
   },
   {
     id: 4,
-    trainerImg: "https://source.unsplash.com/random/?wrestler",
-    name: "Roman Reigns",
+    trainerImg: coach3,
+    name: "Jack Reigns",
     role: "Prof. wrestling coach",
   },
 ];
