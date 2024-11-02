@@ -29,7 +29,7 @@ function Hero() {
           className=" w-[full] h-auto"
         >
           {swiperData.map((item, index) => (
-            <SwiperSlide key={index} className="relative">
+            <SwiperSlide key={index} className="relative mt-20">
               <img
                 src={item.bgImg}
                 alt="bgImg"

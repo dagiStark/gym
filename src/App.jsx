@@ -16,7 +16,7 @@ import { Fragment } from "react";
 function App() {
   return (
     <Fragment>
-      <div className="bg-black/80">
+      <div className="bg-[#0d121f]">
         <Navbar />
         <Hero />
         <About />
