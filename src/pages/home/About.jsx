@@ -1,14 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Dumbbell } from "lucide-react";
+import image4 from "../../assets/images/image4.jpg";
 
 function About() {
   return (
     <div className="w-full h-auto flex items-center justify-between gap-7 py-12 md:py-14 lg:py-16 px-6 md:px-16 lg:px-24 mt-6 flex-wrap-reverse">
       <div className="w-full lg:w-[38%] h-auto relative overflow-hidden">
         <img
-          src="https://i.ibb.co/4b2r0r3/image.png"
+          src={image4}
           alt="About image"
-          className="w-full h-full object-cover"
+          className="w-full h-auto object-cover"
         />
       </div>
 

@@ -1,9 +1,14 @@
-import {
-  Dumbbell,
-} from "lucide-react";
+import { Dumbbell } from "lucide-react";
 import image1 from "@/assets/images/image1.jpg";
 import image2 from "@/assets/images/image2.jpg";
 import image3 from "@/assets/images/image3.jpg";
+
+import serviceImage1 from "@/assets/services/serviceImage1.jpg";
+import serviceImage2 from "@/assets/services/serviceImage2.jpg";
+import serviceImage3 from "@/assets/services/serviceImage3.jpg";
+import serviceImage4 from "@/assets/services/serviceImage4.jpg";
+import serviceImage5 from "@/assets/services/serviceImage5.jpg";
+import serviceImage6 from "@/assets/services/serviceImage6.jpg";
 
 export const swiperData = [
   {
@@ -39,7 +44,7 @@ export const historyData = [
 export const servicesData = [
   {
     id: 1,
-    serviceImg: "https://source.unsplash.com/random/?dumbbell",
+    serviceImg: serviceImage4,
     icon: Dumbbell,
     title: "Fitness",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -47,7 +52,7 @@ export const servicesData = [
   },
   {
     id: 2,
-    serviceImg: "https://source.unsplash.com/random/?yoga",
+    serviceImg: serviceImage3,
     icon: Dumbbell,
     title: "Yoga",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -55,7 +60,7 @@ export const servicesData = [
   },
   {
     id: 3,
-    serviceImg: "https://source.unsplash.com/random/?gym",
+    serviceImg: serviceImage2,
     icon: Dumbbell,
     title: "Gym",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -63,7 +68,7 @@ export const servicesData = [
   },
   {
     id: 4,
-    serviceImg: "https://source.unsplash.com/random/?aerobics",
+    serviceImg: serviceImage1,
     icon: Dumbbell,
     title: "Aerobics",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -71,7 +76,7 @@ export const servicesData = [
   },
   {
     id: 5,
-    serviceImg: "https://source.unsplash.com/random/?boxing",
+    serviceImg: serviceImage5,
     icon: Dumbbell,
     title: "Boxing",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -79,7 +84,7 @@ export const servicesData = [
   },
   {
     id: 6,
-    serviceImg: "https://source.unsplash.com/random/?yoga",
+    serviceImg: serviceImage3,
     icon: Dumbbell,
     title: "Yoga",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -87,7 +92,7 @@ export const servicesData = [
   },
   {
     id: 7,
-    serviceImg: "https://source.unsplash.com/random/?gym",
+    serviceImg: serviceImage2,
     icon: Dumbbell,
     title: "Gym",
     desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -95,7 +100,7 @@ export const servicesData = [
   },
   {
     id: 8,
-    serviceImg: "https://source.unsplash.com/random/?zumba",
+    serviceImg: serviceImage6,
     icon: Dumbbell,
     title: "Zumba",
     desc: "Get ready to burn off some serious fat with our high quality products.",
