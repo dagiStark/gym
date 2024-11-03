@@ -34,6 +34,7 @@ function Hero() {
                 src={item.bgImg}
                 alt="bgImg"
                 className="absolute top-0 left-0 w-full h-full object-cover"
+                loading="lazy"
               />
               <div className="w-full h-[40vh] md:h-[50vh] lg:h-[70vh] relative">
                 <div className="w-full h-full flex items-center justify-center bg-black bg-opacity-20 flex-col z-10 lg:px-24 md:px-16 sm:px-6 px-4 gap-1 md:gap-4 lg:gap-4">

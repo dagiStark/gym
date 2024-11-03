@@ -25,6 +25,7 @@ function Trainers() {
                 src={item.trainerImg}
                 alt="trainer image"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
               <div className="w-full h-auto bg-gray-900/70 absolute bottom-0 left-0 py-4 px-2 flex items-center justify-center flex-col">
                 <h1 className="text-xl text-white font-semibold">

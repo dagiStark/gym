@@ -20,7 +20,7 @@ function Services() {
               className=" sm:w-[90%] md:w-[40%] lg:w-[20%] md:h-[350px] rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translate-y-10 ease-out transition-all duration-500 py-10"
             >
               <div className="w-full h-full absolute top-0 left-0 -z-10">
-                <img src={item.serviceImg} alt="bgImg" />
+                <img src={item.serviceImg} alt="bgImg" loading="lazy" />
               </div>
 
               <div className="w-full h-full flex items-center md:absolute top-0 left-0 justify-center flex-col text-white p-4 z-50 md:bg-black md:bg-opacity-60">

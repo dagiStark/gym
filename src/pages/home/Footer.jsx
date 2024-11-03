@@ -100,6 +100,7 @@ function Footer() {
                     <img
                       src={facebook}
                       alt="facebook icon"
+                      loading="lazy"
                     />
                   </a>
                 </li>
@@ -109,6 +110,7 @@ function Footer() {
                       src="{instagram}"
                       alt="instagram icon"
                       className="w-5 h-5 text-white"
+                      loading="lazy"
                     />
                   </a>
                 </li>
@@ -118,6 +120,7 @@ function Footer() {
                       src="{youtube}"
                       alt="youtube icon"
                       className="w-5 h-5"
+                      loading="lazy"
                     />
                   </a>
                 </li>

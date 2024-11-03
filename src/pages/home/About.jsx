@@ -10,6 +10,7 @@ function About() {
           src={image4}
           alt="About image"
           className="w-full h-auto object-cover"
+          loading="lazy"
         />
       </div>
 

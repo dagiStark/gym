@@ -22,6 +22,7 @@ function Popular() {
                 src={item.trainerImg}
                 alt="exercise image"
                 className="w-full h-[25vh] md:h-[33vh] lg:h-[30vh] object-cover rounded-lg"
+                loading="lazy"
               />
               <div className="w-full h-auto py-4 px-3">
                 <h1 className="text-lg text-white font-semibold mb-1">
